@@ -39,5 +39,5 @@ or
 
 
 ## Instructions
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent! 
+Follow the instructions in `Navigation_Project.ipynb` to get started with training your own agent! 
 The same notebook has a section to play with the trained agent. The code saves the trained model weights by the name "model.pth"
