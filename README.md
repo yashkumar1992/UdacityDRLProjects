@@ -87,8 +87,8 @@ Two Continuous Actions.
 1.Towards/Away. 
 2.Jumping Up/Down. 
 #### Reward
-Each Agent:\
-1. Ball over the net, => +0.1.\
+Each Agent:
+1. Ball over the net, => +0.1.
 2. Ball hit the ground or hits the ball out of bounds => -0.1. \
 Final Reward=> Maximum of Sore from Each Agent. 
 #### Goal
