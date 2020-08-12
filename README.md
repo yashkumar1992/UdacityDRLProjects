@@ -1,22 +1,24 @@
 # UdacityDRLProjects
 
-## Project Details
+## Project : Navigation
+Folder Name: Navigation
+### Project Details
 Environment consists of an Agent collecting Blue/Yellow Bananas by navigating the space. The goal is to collect as many yellow bananas as possible while avoiding blue bananas.
-### State
+#### State
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction.
-### Action
+#### Action
 Four Discrete Actions
 0 - move forward.
 1 - move backward.
 2 - turn left.
 3 - turn right.
-### Reward
+#### Reward
 Yellow Banana => +1
 Blue Banana => -1
-### Goal
+#### Goal
 An agent must get an average score of +13 over 100 consecutive episodes
 
-## Getting Started
+#### Getting Started
 Refer below to setup Udacity Project
 https://github.com/udacity/deep-reinforcement-learning
 
@@ -38,6 +40,67 @@ or
 2. Place the file in this  GitHub repository, in the `Navigation/` folder, and unzip (or decompress) the file. 
 
 
-## Instructions
+#### Instructions
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent! 
 The same notebook has a section to play with the trained agent. The code saves the trained model weights by the name "model.pth"
+
+
+
+## Project : Reacher - Continuous Control 
+Folder Name: Continuous_Control
+### Project Details
+Environment consists of a double-jointed arm can move to target locations.
+A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
+#### Goal
+Maintain robotic arm's position at the target location for as many time steps as possible.
+
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+#### State
+The state space has 33 variables dimensions and contains the agent's position, rotation, velocity, and angular velocities.
+#### Action
+Four Continuous Torques Values for the Arm.
+#### Reward
+Robotic Arm in Goal Position => +0.1
+#### Goal
+An agent must get an average score of +30 over 100 consecutive episodes
+
+#### Getting Started
+Refer below to setup Udacity Project
+https://github.com/udacity/deep-reinforcement-learning
+
+Refer below to setup of the Unity Environment 
+https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md
+
+#### Instructions
+Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent! 
+The same notebook has a section to play with the trained agent. The code saves the trained model weights by the name "checkpoint_actor.pth","checkpoint_critic.pth"
+
+
+## Project : Tennis
+Folder Name: Tennis
+### Project Details
+Environment consists of an Agent collecting Blue/Yellow Bananas by navigating the space. The goal is to collect as many yellow bananas as possible while avoiding blue bananas.      
+#### State
+The state space has 8 dimensions corresponding to the position and velocity of the ball and racket
+#### Actions
+Two Continuous Actions
+Towards/Away
+Jumping Up/Down
+#### Reward
+Each Agent
+Ball over the net, => +0.1
+Ball hit the ground or hits the ball out of bounds => -0.1
+Final Reward=> Maximum of Sore from Each Agent
+#### Goal
+An agent must get an average score of +0.5 over 100 consecutive episodes
+
+#### Getting Started
+Refer below to setup Udacity Project
+https://github.com/udacity/deep-reinforcement-learning
+
+Refer below to setup of the Unity Environment 
+https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Readme.md
+
+#### Instructions
+Follow the instructions in `Tennis.ipynb` to get started with training your own agent! 
+The same notebook has a section to play with the trained agent. The code saves the trained model weights by the name "checkpoint_actor.pth","checkpoint_critic.pth"
