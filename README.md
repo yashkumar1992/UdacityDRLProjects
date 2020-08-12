@@ -83,14 +83,14 @@ Environment consists of an Agent collecting Blue/Yellow Bananas by navigating th
 #### State
 The state space has 8 dimensions corresponding to the position and velocity of the ball and racket
 #### Actions
-Two Continuous Actions
-Towards/Away
-Jumping Up/Down
+Two Continuous Actions. 
+1.Towards/Away. 
+2.Jumping Up/Down. 
 #### Reward
-Each Agent
-Ball over the net, => +0.1
-Ball hit the ground or hits the ball out of bounds => -0.1
-Final Reward=> Maximum of Sore from Each Agent
+Each Agent. 
+Ball over the net, => +0.1. 
+Ball hit the ground or hits the ball out of bounds => -0.1. 
+Final Reward=> Maximum of Sore from Each Agent. 
 #### Goal
 An agent must get an average score of +0.5 over 100 consecutive episodes
 
