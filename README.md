@@ -90,7 +90,7 @@ Two Continuous Actions.
 Each Agent:
 1. Ball over the net, => +0.1.
 2. Ball hit the ground or hits the ball out of bounds => -0.1. \
-Final Reward=> Maximum of Sore from Each Agent. 
+Final Reward=> Maximum of Score from Each Agent. 
 #### Goal
 An agent must get an average score of +0.5 over 100 consecutive episodes
 
