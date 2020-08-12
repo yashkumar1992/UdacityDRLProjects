@@ -7,13 +7,13 @@ Environment consists of an Agent collecting Blue/Yellow Bananas by navigating th
 #### State
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction.
 #### Action
-Four Discrete Actions
+Four Discrete Actions\
 0 - move forward.\
 1 - move backward.\
 2 - turn left.\
-3 - turn right.\
+3 - turn right.
 #### Reward
-Yellow Banana => +1
+Yellow Banana => +1\
 Blue Banana => -1
 #### Goal
 An agent must get an average score of +13 over 100 consecutive episodes
@@ -87,9 +87,9 @@ Two Continuous Actions.
 1.Towards/Away. 
 2.Jumping Up/Down. 
 #### Reward
-Each Agent. 
-Ball over the net, => +0.1. 
-Ball hit the ground or hits the ball out of bounds => -0.1. 
+Each Agent:\
+1. Ball over the net, => +0.1.\
+2. Ball hit the ground or hits the ball out of bounds => -0.1. \
 Final Reward=> Maximum of Sore from Each Agent. 
 #### Goal
 An agent must get an average score of +0.5 over 100 consecutive episodes
