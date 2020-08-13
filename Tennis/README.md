@@ -1,7 +1,7 @@
 ## Project : Tennis
 Folder Name: Tennis
 ### Project Details
-Environment consists of an Agents trying to control ball over the net mimicket the tennis racket game.       
+Environment consists of an Agents trying to control ball over the net mimick the tennis racket game.       
 #### State
 The state space has 8 dimensions corresponding to the position and velocity of the ball and racket
 #### Actions
