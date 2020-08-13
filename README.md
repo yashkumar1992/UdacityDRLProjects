@@ -14,4 +14,4 @@ A reward of +0.1 is provided for each step that the agent's hand is in the goal 
 ## Project : Tennis
 Folder Name: Tennis
 ### Project Details
-Environment consists of an Agents trying to control ball over the net mimicket the tennis racket game.  
+Environment consists of an Agents trying to control ball over the net mimick the tennis racket game.  
