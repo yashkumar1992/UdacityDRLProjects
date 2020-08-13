@@ -1,7 +1,7 @@
 ## Project : Tennis
 Folder Name: Tennis
 ### Project Details
-Environment consists of an Agent collecting Blue/Yellow Bananas by navigating the space. The goal is to collect as many yellow bananas as possible while avoiding blue bananas.      
+Environment consists of an Agents trying to control ball over the net mimicket the tennis racket game.       
 #### State
 The state space has 8 dimensions corresponding to the position and velocity of the ball and racket
 #### Actions
