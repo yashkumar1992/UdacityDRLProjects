@@ -3,14 +3,11 @@ Folder Name: Continuous_Control
 ### Project Details
 Environment consists of a double-jointed arm can move to target locations.
 A reward of +0.1 is provided for each step that the agent's hand is in the goal location.
-#### Goal
 Maintain robotic arm's position at the target location for as many time steps as possible.
-
-The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 #### State
 The state space has 33 variables dimensions and contains the agent's position, rotation, velocity, and angular velocities.
 #### Action
-Four Continuous Torques Values for the Arm.
+Four Continuous Torques Values for the Arm(value => -1,1)
 #### Reward
 Robotic Arm in Goal Position => +0.1
 #### Goal
